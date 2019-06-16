@@ -1,0 +1,58 @@
+{
+    "name" : "JerryHome",
+    "appid" : "__UNI__EA2AB8B",
+    "description" : "Jerry在屋子里被Tom发现了，快送它回家吧",
+    "versionName" : "1.0",
+    "versionCode" : 100,
+    "transformPx" : false,
+    "app-plus" : {
+        /* 5+App特有相关 */
+        "usingComponents" : true,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "modules" : {},
+        /* 模块配置 */
+        "distribute" : {
+            /* 应用发布信息 */
+            "android" : {
+                /* android打包配置 */
+                "permissions" : [],
+                "targetSdkVersion" : 28
+            },
+            "ios" : {
+                "idfa" : false
+            },
+            /* ios打包配置 */
+            "sdkConfigs" : {
+                "push" : {},
+                "payment" : {},
+                "maps" : {}
+            },
+            "icons" : {
+                "android" : {
+                    "mdpi" : "static/images/icons/icon@48.png",
+                    "ldpi" : "static/images/icons/icon@48.png",
+                    "hdpi" : "static/images/icons/icon@72.png",
+                    "xhdpi" : "static/images/icons/icon@96.png",
+                    "xxhdpi" : "static/images/icons/icon@144.png",
+                    "xxxhdpi" : "static/images/icons/icon@192.png"
+                }
+            }
+        }
+    },
+    /* SDK配置 */
+    "quickapp" : {},
+    /* 快应用特有相关 */
+    "mp-weixin" : {
+        /* 小程序特有相关 */
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : false
+        },
+        "usingComponents" : true
+    }
+}
